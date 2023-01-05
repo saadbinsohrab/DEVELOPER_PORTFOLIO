@@ -3,6 +3,13 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+header{
+    background-color: #FFF8F3;
+    background-image: url("/images/header_bg.png"), url(/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
 /* header and navigation styles */
 .btn-primary{
     color: #FFFFFF;
@@ -32,9 +39,9 @@ nav ul{
 }
 
 .nave-title{
-    font-weight: 800;
-    font-size: 45px;
-    line-height: 61px;
+    font-weight: 800px;
+    font-size: 900px;
+    /* line-height: 61px; */
 }
 
 .text-primary{
@@ -64,4 +71,55 @@ nav ul{
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+    width: 558px;
+
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section style */
+.about{
+    text-align: center;
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 131px 157px;
+}
+
+.section-title{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* about information */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.about-info{
+   
+}
+
+.info-title{
+     color: #757575;
+    font-size: 20px;
+}
+
+.info-description{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
 }
