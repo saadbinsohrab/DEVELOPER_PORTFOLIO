@@ -188,3 +188,14 @@ main{
     color: #757575;
     font-size: 16px;
 }
+
+.contact{
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contact .section-title{
+    text-align: left;
+}
