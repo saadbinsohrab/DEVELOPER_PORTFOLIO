@@ -3,7 +3,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-header{
+.header{
     background-color: #FFF8F3;
     background-image: url("/images/header_bg.png"), url(/images/developer.png);
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 nav li{
@@ -52,6 +52,7 @@ nav ul{
 .banner{
     margin: 0 200px;
     display: flex;
+    gap: 163px;
     align-items: center;
 }
 
@@ -71,7 +72,7 @@ nav ul{
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
-    width: 558px;
+    /* width: 558px; */
 
 }
 
